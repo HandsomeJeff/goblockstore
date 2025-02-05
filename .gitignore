@@ -1,0 +1,71 @@
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Output directories
+bin/
+dist/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables and secrets
+.env
+*.env
+.env.local
+.env.*.local
+
+# Dependency directories
+vendor/
+
+# Debug files
+debug/
+
+# Database files
+*.db
+*.sql
+*.sqlite
+
+# Log files
+*.log
+logs/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+tmp/
+data/
+*.pem
+*.key
+*.cert
+*.txt
+schema.json
+*block*.json
+yellowstone*.json
+solana*.json
+
+# TypeScript files
+*.ts
+*.tsx
+*.js.map
+node_modules/
+
+# Build output
+build/ 
